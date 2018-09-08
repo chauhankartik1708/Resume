@@ -3328,8 +3328,8 @@ body.page-sliding #content .section:not(footer).cover .fp-scroller {
   -ms-border-radius: 50%;
   -o-border-radius: 50%;
   border-radius: 50%;
-  width: 44px;
-  height: 44px;
+  width: 60px;
+  height: 60px;
   display: inline-block;
   vertical-align: middle;
   margin-right: 0.75rem;
