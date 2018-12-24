@@ -1,231 +1,132 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <!-- Meta -->
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-        <meta name="viewport" content="width=device-width, initial-scale=1"/>
-        <meta name="theme-color" content="#E86E21">
 
-        <!-- Favicons -->
-        <link rel="shortcut icon" href="favicon.png">
+<head>
+  <!-- Meta -->
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#E86E21">
 
-        <!-- Title -->
-        <title>Kartik Chauhan | A self-taught android & web developer</title>
+  <!-- Favicons -->
+  <link rel="shortcut icon" href="favicon.png">
 
-        <!-- CSS Plugins -->
-        <link rel="stylesheet" href="assets/plugins/bootstrap/dist/css/bootstrap.min.css"/>
-        <link rel="stylesheet" href="assets/plugins/animate.css/animate.min.css"/>
-        <link rel="stylesheet" href="assets/plugins/slick-carousel/slick/slick.css"/>
+  <!-- Title -->
+  <title>Kartik Chauhan | A self-taught android & web developer</title>
 
-        <!-- CSS Icons -->
-        <link rel="stylesheet" href="assets/css/themify-icons.css"/>
-        <link rel="stylesheet" href="assets/plugins/font-awesome/css/font-awesome.min.css"/>
+  <!-- CSS Plugins -->
+  <link rel="stylesheet" href="assets/plugins/bootstrap/dist/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="assets/plugins/animate.css/animate.min.css" />
+  <link rel="stylesheet" href="assets/plugins/slick-carousel/slick/slick.css" />
 
-        <!-- CSS Base -->
-        <link id="theme" rel="stylesheet" href="assets/css/themes/theme-navyBlue.min.css"/>
-        <link id="custom" rel="stylesheet" href="assets/css/custom.css"/>
-    </head>
-    <body class="navigation-panel dark-scheme" style="padding-bottom:0px !important;">
+  <!-- CSS Icons -->
+  <link rel="stylesheet" href="assets/css/themify-icons.css" />
+  <link rel="stylesheet" href="assets/plugins/font-awesome/css/font-awesome.min.css" />
 
-            <!-- Loader -->
-            <div id="page-loader">
-              <svg class="loader" viewBox="0 0 28 28">
-                <circle cx="14" cy="14" r="12" stroke-width="2"></circle>
-              </svg>
+  <!-- CSS Base -->
+  <link id="theme" rel="stylesheet" href="assets/css/themes/theme-navyBlue.min.css" />
+  <link id="custom" rel="stylesheet" href="assets/css/custom.css" />
+</head>
+
+<body class="navigation-panel dark-scheme" style="padding-bottom:0px !important;">
+  <div class="section padded dark bg-secondary-animated mouse-parallax" data-scheme="dark" data-local-scroll>
+    <div class="container">
+      <header id="main-header">
+        <div class="row no-gutters">
+          <div class="col-lg-4 col-md-5">
+            <img src="assets/img/person1.jpg">
+          </div>
+          <div class="col-lg-8 col-md-7">
+            <div class="d-flex flex-column">
+              <div class="p-5 bg-dark text-white">
+                <div class="name d-flex flex-row justify-content-between align-items-center">
+                  <h1 class="display-4">Kartik Chauhan</h1>
+                  <div><i class="fa fa-twitter"></i></div>
+                  <div><i class="fa fa-facebook"></i></div>
+                  <div><i class="fa fa-instagram"></i></div>
+                  <div><i class="fa fa-github"></i></div>
+                </div>
+              </div>
+
+              <div class="p-4 bg-black">
+                Experienced Full Stack Web Developer
+              </div>
+
+              <div>
+                <div class="d-flex flex-row text-white align-items-stretch text-center">
+                  <div class="port-item p-4 bg-primary" data-toggle="collapse" data-target="#home">
+                    <i class="fa fa-home d-block"></i> Home
+                  </div>
+                  <div class="port-item p-4 bg-success" data-toggle="collapse" data-target="#resume">
+                    <i class="fa fa-graduation-cap d-block"></i> Resume
+                  </div>
+                  <div class="port-item p-4 bg-warning" data-toggle="collapse" data-target="#work">
+                    <i class="fa fa-folder-open d-block"></i> Projects
+                  </div>
+                  <div class="port-item p-4 bg-danger" data-toggle="collapse" data-target="#contact">
+                    <i class="fa fa-envelope d-block"></i> Contact
+                  </div>
+                </div>
+              </div>
             </div>
-            
-            <!-- Navigation -->
-            <nav id="navigation" class="navigation-panel dark">
-            
-              <div class="navigation-inner">
-                <!-- Navigation Primary -->
-                <ul class="nav nav-primary-panel">
-                  <li class="nav-item"><a href="#start" class="nav-link">Start</a></li>
-                  <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
-                  <li class="nav-item"><a href="#blog" class="nav-link">Latest Posts</a></li>
-                  <li class="nav-item"><a href="#portfolio" class="nav-link">Work</a></li>
-                </ul>
-              </div>
-            
-            </nav>
-            <!-- Navigation / End -->
-            
-            <!-- Navigation Toggle -->
-            <a id="navigation-toggle" class="nav-toggle"><span></span><span></span><span></span><span></span></a>
-            
-              <!-- Content -->
-              <div id="content">
-                <!-- Section - Start -->
-                <section id="start" class="section padded dark bg-secondary-animated mouse-parallax"
-                          data-scheme="dark" data-local-scroll>
-        
-                  <!-- Section Content -->
-                  <div class="section-content">
-                    <div class="container-wide" data-local-scroll>
-                      <div class="col-xs-12 col-sm-10">
-                        <div class="row align-items-center">
-                          <!-- <div class="col-xs-12 col-sm-4 col-md-2 home-avatar">
-                              <svg class="uc-badge" width="160" height="160" viewBox="-18 -18 120 120"
-                                  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                              <defs>
-                                  <path
-                                      d="M41.5,83 C18.5801829,83 0,64.4198171 0,41.5 C0,18.5801829 18.5801829,0 41.5,0 C64.4198171,0 83,18.5801829 83,41.5 C83,64.4198171 64.4198171,83 41.5,83 L41.5,83 Z"
-                                      id="text-path"></path>
-                              </defs>
-                              <text font-family="inherit" font-weight="600" font-size="13" letter-spacing=".3em"
-                                      text-align="justify" text-anchor="start" word-spacing="1.2em">
-                                  <textPath class="j1" fill="#ffffff" xlink:href="#text-path">O O HHHEEEELLLOOO
-                                  </textPath>
-                              </text>
-                              </svg>
-                          </div> -->
-                            <div class="col-xs-12 col-sm-8 col-md-9 ">
-                                <h1 class="mb-0">I’m <strong>Kartik Chauhan</strong>. I discover, ideate and build cool
-                                products ~ <em>"what I want"</em> !
-                                </h1>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                  </section>
-                
-              <!-- Section - Resume -->
-              <section id="about" class="section dark bg-dark" data-scheme="dark">
-                <!-- Section Content -->
-                <div class="section-content">
-                  <!-- Section Header -->
-                  <div class="container">
-                    <!-- Resume - About -->
-                    <div class="resume-box  image-edge row">
-                      <div class="col-md-8 mb-5 ">
-                        <h5 class="inline">Reach Me At</h5>
-                        <a href="https://twitter.com/kckartik17" target="_blank"
-                          class="icon icon-circle icon-hover icon-sm icon-twitter"><i
-                            class="fa fa-twitter"></i></a>
-                        <a href="https://github.com/chauhankartik1708" target="_blank"
-                          class="icon icon-circle icon-hover icon-sm icon-github"><i
-                            class="fa fa-github"></i></a>
-                        <a href="https://www.facebook.com/kckartik17/" target="_blank"
-                          class="icon icon-circle icon-hover icon-sm icon-facebook"><i class="fa fa-facebook"></i></a>
-                        <a href="https://www.linkedin.com/in/kckartik17/" target="_blank"
-                          class="icon icon-circle icon-hover icon-sm icon-linkedin"><i class="fa fa-linkedin"></i></a>
-                        <a href="mailto:kckartik17@gmail.com" target="_blank"
-                          class="icon icon-circle icon-hover icon-sm icon-email"><i class="fa fa-envelope"></i></a>
-                      </div>
-                      
-                    </div>
-                  </div>
-                </div>
+          </div>
+        </div>
+      </header>
 
-              </section>
-            </div>
-
-            <!-- Content / End -->
-                    <!-- Footer -->
-              <footer id="footer" class="bg-secondary-animated dark">
-
-                <div class="footer-content">
-                  <div class="container">
-                    <div class="row align-items-center">
-                      <div class="col-md-6 mb-5 mb-md-0 text-center text-md-left">
-                        <p class="lead text-lg">Want to get my <span
-                            class="underline">Resume</span>?</p>
-                        <a href="Resume.pdf" target="_blank" class="btn btn-primary btn-sm">Download</a>
-                      </div>
-                      <div class="spread-icons col-md-6 text-center text-md-right">
-                        <a href="https://twitter.com/kckartik17" target="_blank"
-                          class="icon icon-sm icon-white icon-hover"><i
-                            class="fa fa-twitter"></i></a>
-                        <a href="https://github.com/chauhankartik1708" target="_blank"
-                          class="icon icon-sm icon-white icon-hover"><i
-                            class="fa fa-github"></i></a>
-                        <a href="https://www.facebook.com/kckartik17/" target="_blank"
-                          class="icon icon-sm icon-white icon-hover"><i class="fa fa-facebook"></i></a>
-                        <a href="https://www.linkedin.com/in/kckartik17/" target="_blank"
-                          class="icon icon-sm icon-white icon-hover"><i class="fa fa-linkedin"></i></a>
-                        <a href="mailto:kckartik17@gmail.com" target="_blank"
-                          class="icon icon-sm icon-white icon-hover"><i class="fa fa-envelope"></i></a>
-                        <p class="text-muted mt-3 mb-0">© Copyright Kartik Chauhan 2018. <br>
-                          Made with love by <a href="https://chauhankartik1708.github.io/" target="_blank" class="link-inherit">Kartik Chauhan</a>.</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              
-              </footer>
-              <!-- Footer / End -->
-              
-
-              <!-- Window - Message -->
-            <div id="message-window" class="window window-primary">
-                <svg class="window-background" viewBox="0 0 1920 1080" preserveAspectRatio="none"></svg>
-                <div class="window-inner">
-                  <section class="section dark">
-                    <div class="section-content">
-                      <div class="container">
-                        <!-- Section Header -->
-                        <div class="section-header">
-                          <img src="assets/img/pic.png" alt="" class="section-header-image">
-                          <div class="section-header-content">
-                            <span class="typing">I am waiting for a message from you :)</span>
-                          </div>
-                        </div>
-                        <!-- Section Content -->
-                        <form class="contact-form form-text"
-                              data-message-error="Opps... Something went wrong - please try again later"
-                              data-message-success="Thanks! You will recieve a responsve in 24h!" data-validate>
-                          <div class="form-group">Hello! My name is <input name="name" type="text"
-                                                                          class="form-control-text" required> and here is
-                            my message:
-                          </div>
-                          <div class="form-group"><textarea name="message" cols="30" rows="4" class="form-control-text"
-                                                            required></textarea></div>
-                          <div class="form-group">I will leave you my e-mail - please reply: <input name="email"
-                                                                                                  type="email"
-                                                                                                  class="form-control-text"
-                                                                                                  required></div>
-                          <button class="btn btn-white btn-lg">Send message!</button>
-                        </form>
-                      </div>
-                    </div>
-                  </section>
-                </div>
-              </div>
-              
-              <!-- Window Toggle - Message -->
-              <button class="window-toggle" data-target="#message-window"><i class="fa fa-comments"></i><i class="fa fa-times"></i>
-              </button>
-              
-              <!-- Modal / Video -->
-              <div class="modal modal-video fade" id="modalVideo" role="dialog">
-                <button class="close" data-dismiss="modal"></button>
-                <div class="modal-dialog modal-lg" role="document">
-                  <div class="modal-content">
-                    <iframe height="500"></iframe>
-                  </div>
-                </div>
-              </div>
+    </div>
+  </div>
 
 
 
-            <!-- JS Plugins -->
-        <script src="assets/plugins/jquery/dist/jquery.min.js"></script>
-        <script src="assets/plugins/jquery.appear/jquery.appear.js"></script>
-        <script src="assets/plugins/tether/dist/js/tether.min.js"></script>
-        <script src="assets/plugins/bootstrap/dist/js/bootstrap.min.js"></script>
-        <script src="assets/plugins/jquery.scrollto/jquery.scrollTo.min.js"></script>
-        <script src="assets/plugins/jquery.localscroll/jquery.localScroll.min.js"></script>
-        <script src="assets/plugins/imagesloaded/imagesloaded.pkgd.min.js"></script>
-        <script src="assets/plugins/masonry-layout/dist/masonry.pkgd.min.js"></script>
-        <script src="assets/plugins/slick-carousel/slick/slick.min.js"></script>
-        <script src="assets/plugins/waypoints/lib/jquery.waypoints.min.js"></script>
-        <script src="assets/plugins/jquery-validation/dist/jquery.validate.min.js"></script>
-        <script src="assets/plugins/typed.js/dist/typed.min.js"></script>
-        <script src="assets/plugins/easy-pie-chart/dist/jquery.easypiechart.min.js"></script>
-        <script src="assets/plugins/snapsvg/dist/snap.svg-min.js"></script>
-        <script src="assets/plugins/isotope-layout/dist/isotope.pkgd.min.js"></script>
 
-        <script src="assets/js/core.min.js"></script>
-    </body>
+  <!-- Footer -->
+  <footer id="footer" class="bg-secondary-animated dark">
+
+    <div class="footer-content">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-6 mb-5 mb-md-0 text-center text-md-left">
+            <p class="lead text-lg">Want to get my <span class="underline">Resume</span>?</p>
+            <a href="Resume.pdf" target="_blank" class="btn btn-primary btn-sm">Download</a>
+          </div>
+          <div class="spread-icons col-md-6 text-center text-md-right">
+            <a href="https://twitter.com/kckartik17" target="_blank" class="icon icon-sm icon-white icon-hover"><i
+                class="fa fa-twitter"></i></a>
+            <a href="https://github.com/chauhankartik1708" target="_blank" class="icon icon-sm icon-white icon-hover"><i
+                class="fa fa-github"></i></a>
+            <a href="https://www.facebook.com/kckartik17/" target="_blank" class="icon icon-sm icon-white icon-hover"><i
+                class="fa fa-facebook"></i></a>
+            <a href="https://www.linkedin.com/in/kckartik17/" target="_blank" class="icon icon-sm icon-white icon-hover"><i
+                class="fa fa-linkedin"></i></a>
+            <a href="mailto:kckartik17@gmail.com" target="_blank" class="icon icon-sm icon-white icon-hover"><i class="fa fa-envelope"></i></a>
+            <p class="text-muted mt-3 mb-0">© Copyright Kartik Chauhan 2018. <br>
+              Made with love by <a href="https://chauhankartik1708.github.io/" target="_blank" class="link-inherit">Kartik
+                Chauhan</a>.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </footer>
+
+
+  <!-- JS Plugins -->
+  <script src="assets/plugins/jquery/dist/jquery.min.js"></script>
+  <script src="assets/plugins/jquery.appear/jquery.appear.js"></script>
+  <script src="assets/plugins/tether/dist/js/tether.min.js"></script>
+  <script src="assets/plugins/bootstrap/dist/js/bootstrap.min.js"></script>
+  <script src="assets/plugins/jquery.scrollto/jquery.scrollTo.min.js"></script>
+  <script src="assets/plugins/jquery.localscroll/jquery.localScroll.min.js"></script>
+  <script src="assets/plugins/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/plugins/masonry-layout/dist/masonry.pkgd.min.js"></script>
+  <script src="assets/plugins/slick-carousel/slick/slick.min.js"></script>
+  <script src="assets/plugins/waypoints/lib/jquery.waypoints.min.js"></script>
+  <script src="assets/plugins/jquery-validation/dist/jquery.validate.min.js"></script>
+  <script src="assets/plugins/typed.js/dist/typed.min.js"></script>
+  <script src="assets/plugins/easy-pie-chart/dist/jquery.easypiechart.min.js"></script>
+  <script src="assets/plugins/snapsvg/dist/snap.svg-min.js"></script>
+  <script src="assets/plugins/isotope-layout/dist/isotope.pkgd.min.js"></script>
+
+  <script src="assets/js/core.min.js"></script>
+</body>
+
 </html>
